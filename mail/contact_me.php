@@ -16,7 +16,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
-$to = 'maini.cgbrito@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'host@mail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Formulário recebido de:  $name";
 $email_body = "Você acabou de receber um novo formulário no Site YKAREPI YUDJÁ.\n\n"."Aqui estão os detalhes:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "De: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
