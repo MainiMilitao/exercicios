@@ -1,2 +1,3 @@
-# Yakarepi-Yudja
-Pagina de um projeto com os povos Juruna Yadjás do Xingu.
+# Pagina para ajudar a filha de meu primo que foi atropelada por um trator 
+
+
